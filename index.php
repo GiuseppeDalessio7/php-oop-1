@@ -20,88 +20,89 @@ include __DIR__ . '/db_movies.php';
 
 
 
-    <div class=" text-center">
+    <div class="container">
         <h1 class=" m-5">Movie Card's</h1>
         <div class="row">
 
-            <div class="card border-0 h-100">
-                <img class="card-img-top w-50" src="<?php echo $JohnWich->img ?>" alt="">
+            <div class="card border-1 ">
+                <img class="text-center" src="<?php echo $JohnWich->img ?>" alt="">
                 <div class="card-body bg-warning text-start">
                     <h2>Titolo: <?php echo $JohnWich->titolo ?></h2>
                     <h5>Tipo: <?php echo $JohnWich->genere ?></h5>
                     <h4>Anno:<?php echo $JohnWich->anno ?></h4>
                 </div>
+
             </div>
 
         </div>
-    </div>
 
 
 
-    <div class="row">
 
-        <div class="card border-0 h-100">
-            <img class="card-img-top w-50" src="<?php echo $SetteAnime->img ?>" alt="">
+
+
+        <div class="card border-1">
+            <img class="text-center text-center" src="<?php echo $SetteAnime->img ?>" alt="">
             <div class="card-body bg-warning text-start">
                 <h2>Titolo: <?php echo $SetteAnime->titolo ?></h2>
                 <h5>Tipo: <?php echo $SetteAnime->genere ?></h5>
                 <h4>Anno:<?php echo $SetteAnime->anno ?></h4>
             </div>
         </div>
-    </div>
-    </div>
 
 
 
 
-    <div class="row">
-        <div class="card border-0 h-100">
-            <img class="card-img-top w-50" src="<?php echo $OdisseaNelloSpazio->img ?>" alt="">
-            <div class="card-body bg-warning text-start">
-                <h2>Titolo: <?php echo $OdisseaNelloSpazio->titolo ?></h2>
-                <h5>Tipo: <?php echo $OdisseaNelloSpazio->genere ?></h5>
-                <h4>Anno:<?php echo $OdisseaNelloSpazio->anno ?></h4>
+
+
+        <div class="row">
+            <div class="card border-1">
+                <img class="text-center" src="<?php echo $OdisseaNelloSpazio->img ?>" alt="">
+                <div class="card-body bg-warning text-start">
+                    <h2>Titolo: <?php echo $OdisseaNelloSpazio->titolo ?></h2>
+                    <h5>Tipo: <?php echo $OdisseaNelloSpazio->genere ?></h5>
+                    <h4>Anno:<?php echo $OdisseaNelloSpazio->anno ?></h4>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
 
 
 
 
-    <div class="row">
 
-        <div class="card border-0 h-100">
-            <img class="card-img-top w-50" src="<?php echo $Avatar->img ?>" alt="">
-            <div class="card-body bg-warning text-start">
-                <h2>Titolo: <?php echo $Avatar->titolo ?></h2>
-                <h5>Tipo: <?php echo $Avatar->genere ?></h5>
-                <h4>Anno:<?php echo $Avatar->anno ?></h4>
+        <div class="row">
+
+            <div class="card border-1">
+                <img class="text-center" src="<?php echo $Avatar->img ?>" alt="">
+                <div class="card-body bg-warning text-start">
+                    <h2>Titolo: <?php echo $Avatar->titolo ?></h2>
+                    <h5>Tipo: <?php echo $Avatar->genere ?></h5>
+                    <h4>Anno:<?php echo $Avatar->anno ?></h4>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
 
 
 
 
-    <div class="row">
 
-        <div class="card border-0 h-100">
-            <img class="card-img-top w-50" src="<?php echo $Avengers->img ?>" alt="">
-            <div class="card-body bg-warning text-start">
-                <h2>Titolo: <?php echo $Avengers->titolo ?></h2>
-                <h5>Tipo: <?php echo $Avengers->genere ?></h5>
-                <h4>Anno:<?php echo $Avengers->anno ?></h4>
+        <div class="row">
+
+            <div class="card border-1">
+                <img class="text-center" src="<?php echo $Avengers->img ?>" alt="">
+                <div class="card-body bg-warning text-start">
+                    <h2>Titolo: <?php echo $Avengers->titolo ?></h2>
+                    <h5>Tipo: <?php echo $Avengers->genere ?></h5>
+                    <h4>Anno:<?php echo $Avengers->anno ?></h4>
+                </div>
             </div>
         </div>
+
+
+
+
+
     </div>
-    </div>
-
-
-
-
-
 
 
 
