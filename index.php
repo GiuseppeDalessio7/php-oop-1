@@ -5,6 +5,8 @@ class Movie
     public $anno;           // variabili di istanza
     public $genere;         // variabili di istanza
 
+    // Costruttore
+
     function __construct($_genere)
     {
         $this->genere = $_genere;
@@ -31,11 +33,6 @@ $SetteAnime = new Movie("drammatico");
 // $SetteAnime->anno = "09-01-2009";
 // $SetteAnime->genere = "drammatico";
 
-// Costruttore
-
-
-
-
 
 ?>
 
@@ -51,9 +48,9 @@ $SetteAnime = new Movie("drammatico");
 <body>
     <h1>Stampa a schermo</h1>
 
-    <h2>I film da me scelti sono:
-        <span><?php echo $JohnWich = new Movie("azione") ?></span>
-        <span><?php echo $SetteAnime = new Movie("drammatico") ?></span>
+    <h2>Il genere di film che mi piace sono:
+        <span><?php echo $JohnWich->genere ?></span>
+        <span><?php echo $SetteAnime->genere ?></span>
     </h2>
 
 </body>
@@ -62,6 +59,6 @@ $SetteAnime = new Movie("drammatico");
 
 
 
-all’interno della classe è definito almeno un metodo
-vengono istanziati almeno due oggetti ‘Movie’ e stampati a schermo i valori
-delle relative proprietà
+<!-- all’interno della classe è definito almeno un metodo -->
+<!-- <!-- vengono istanziati almeno due oggetti ‘Movie’ e stampati a schermo i valori --> -->
+<!-- delle relative proprietà -->
